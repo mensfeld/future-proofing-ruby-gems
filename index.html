@@ -216,8 +216,6 @@ The point is for me to <span class="hl">teach</span> you something.
 
           <p>
             <img src="img/cloc.png" style="border: 1px solid #bcbec0; padding: 10px; background: none;"/>
-
-            <small style="font-size: 40%">*tests not included, just code and comments</small>
           </p>
         </section>
 
@@ -319,6 +317,16 @@ The point is for me to <span class="hl">teach</span> you something.
           </h1>
         </section>
 
+        <section class="light" data-background-color="#e1dbbd">
+          <h3>Operating Beyond</h3>
+
+          <ul>
+            <li class="fragment">Railtie + Auto Detection</li>
+            <li class="fragment">Auto-configuration (plug-and-play)</li>
+            <li class="fragment">Concepts Remapping</li>
+          </ul>
+        </section>
+
         <section>
 
 <pre style="font-size: 50%"><code data-trim data-noescape>
@@ -344,6 +352,10 @@ ActiveSupport::Notifications.subscribe(
 end
 </code></pre>
 
+<aside class="notes">
+ActiveSupport::Notifications provides an instrumentation API.
+</aside>
+
         </section>
 
         <section class="light" data-background-color="#e1dbbd">
@@ -360,6 +372,24 @@ end
 
         <section class="dark" data-background-color="#082a3d">
           <h2>Your gem dependency is a multi-level liability</h2>
+        </section>
+
+        <section class="light" data-background-color="#e1dbbd">
+          <ul style="font-size: 80%">
+            <li>concurrent-ruby</li>
+            <li>dry-configurable</li>
+            <li>dry-inflector</li>
+            <li>dry-monitor</li>
+            <li>dry-validation</li>
+            <li>dry-events</li>
+            <li>dry-initializer</li>
+            <li>dry-schema</li>
+            <li>dry-core</li>
+            <li>envlogic</li>
+            <li>ruby-kafka</li>
+            <li>thor</li>
+            <li>...</li>
+          </ul>
         </section>
 
         <section class="light" data-background-color="#e1dbbd">
@@ -490,6 +520,20 @@ end
         </section>
 
         <section class="light" data-background-color="#e1dbbd">
+          <ol>
+            <li>Fix it</li>
+            <li class="fragment">Ditch it</li>
+            <li class="fragment">Ignore it</li>
+          </ol>
+        </section>
+
+        <section class="dark" data-background-color="#082a3d">
+          <h3>
+            Minimize your supply chain fingerprint.
+          </h3>
+        </section>
+
+        <section class="light" data-background-color="#e1dbbd">
           <ul>
             <li>thor => 3622 LOC</li>
             <li class="fragment">homebrew limited use-case => 109 LOC</li>
@@ -522,6 +566,13 @@ end
             <li>Layered Architecture</li>
             <li>Component-Based Architecture</li>
           </ul>
+        </section>
+
+        <section class="light" data-background-color="#e1dbbd">
+          <p>
+            <img src="img/onion.png" style="border: 1px solid #bcbec0; padding: 10px; background: none; max-width: 50%"/>
+          </p>
+          <h5>Layered Architecture</h5>
         </section>
 
         <section class="light" data-background-color="#e1dbbd">
@@ -576,6 +627,10 @@ icfg.processing.expansions_selector = Pro::Processing::ExpansionsSelector.new
             <li class="fragment">Documentation and Examples</li>
           </ul>
         </section>
+
+        <section class="dark" data-background-color="#082a3d">
+            <h1>Gems are <span class="hl">not</span> the final product</h1>
+          </section>
 
         <section class="light" data-background-color="#e1dbbd">
           <ul>
@@ -969,32 +1024,6 @@ assert_equal elements, DT[0]
       </section>
 
         <section class="light" data-background-color="#e1dbbd">
-          <h4>Telemetry, Security, & User Feedback</h4>
-
-          <ul>
-            <li>Consent-Based Telemetry in OSS</li>
-            <li>Legal Implications of Data Extraction</li>
-            <li>Security Risks of Telemetry</li>
-            <li>Complexity in Commercial Agreements</li>
-            <li>GDPR Considerations for Gem Authors</li>
-            <li>User Feedback as a Non-Invasive Alternative</li>
-          </ul>
-        </section>
-
-        <section class="light" data-background-color="#e1dbbd">
-          <h4>Forward-Thinking Practices & Legal Aspects</h4>
-
-          <ul>
-            <li>Licensing</li>
-            <li>Contributor License Agreement</li>
-          </ul>
-        </section>
-
-
-
-
-
-        <section class="light" data-background-color="#e1dbbd">
           <h3>
             Summary
           </h3>
@@ -1022,6 +1051,29 @@ assert_equal elements, DT[0]
             ⭐ github.com/karafka/karafka 🙏
           </p>
         </section>
+
+        <section class="light" data-background-color="#e1dbbd">
+          <h4>Telemetry, Security, & User Feedback</h4>
+
+          <ul>
+            <li>Consent-Based Telemetry in OSS</li>
+            <li>Legal Implications of Data Extraction</li>
+            <li>Security Risks of Telemetry</li>
+            <li>Complexity in Commercial Agreements</li>
+            <li>GDPR Considerations for Gem Authors</li>
+            <li>User Feedback as a Non-Invasive Alternative</li>
+          </ul>
+        </section>
+
+        <section class="light" data-background-color="#e1dbbd">
+          <h4>Forward-Thinking Practices & Legal Aspects</h4>
+
+          <ul>
+            <li>Licensing & Relicencing</li>
+            <li>Contributor License Agreement</li>
+          </ul>
+        </section>
+
       </div>
 
       <div class='logo'>
