@@ -1,0 +1,44 @@
+.reveal .light h1,
+.reveal .light h2,
+.reveal .light h3,
+.reveal .light h4,
+.reveal .light h5,
+.reveal .light h6 {
+  text-transform: none;
+  font-weight: normal;
+  color: #06222f;
+}
+
+.reveal .dark h1,
+.reveal .dark h2,
+.reveal .dark h3,
+.reveal .dark h4,
+.reveal .dark h5,
+.reveal .dark h6 {
+  text-transform: none;
+  font-weight: normal;
+  color: #e1dbbd;
+}
+
+.reveal .light { color: #193446  }
+.reveal .light .hl { color: #04171e  }
+
+.reveal .dark { color: #e1dbbd  }
+.reveal .dark .hl { color: #c6bc6d }
+
+.reveal .logo {
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  font-size: 0.5em;
+  color: #392E61;
+  z-index: 10000;
+}
+
+a {
+  color: #D24536 !important;
+}
+
+body {
+  background: #e1dbbd;
+  background-color: #e1dbbd; }
