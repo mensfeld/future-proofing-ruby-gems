@@ -1,1 +1,1 @@
-[https://diffend-io.github.io/presentations_devopsconnect_2021/#/](https://diffend-io.github.io/presentations_devopsconnect_2021/#/)
+[https://mensfeld.github.io/future-proofing-ruby-gems/](https://mensfeld.github.io/future-proofing-ruby-gems/)
